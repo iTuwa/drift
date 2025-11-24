@@ -93,10 +93,25 @@ export default function HomePage() {
                   <img src="/boath.png" alt="Mystery Box" />
                 </div>
                 <div className="lable_screen_username">
+                  <svg
+                    className="verified_icon"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true"
+                    focusable="false"
+                  >
+                    <circle cx="12" cy="12" r="10" fill="#1D9BF0" />
+                    <path
+                      d="M10.2 13.6l-1.8-1.8a1 1 0 10-1.4 1.4l2.5 2.5a1 1 0 001.5-.1l5.5-6a1 1 0 10-1.5-1.3l-4.8 5.3z"
+                      fill="#ffffff"
+                    />
+                  </svg>
                   <span>Mystery Box</span>
                 </div>
                 <div className="lable_owner">
-                  <span>By</span>
                   <svg
                     className="verified_icon"
                     width="16"
@@ -113,6 +128,7 @@ export default function HomePage() {
                       fill="#ffffff"
                     />
                   </svg>
+                  <span>By</span>
                   <span className="hover">OpenSeaPro</span>
                 </div>
                 <div className="lable_miting">
@@ -294,9 +310,26 @@ export default function HomePage() {
             <div className="row_links">
               <div className="content_right">
                 <div className="links">
-                  <div className="icon interact-button">🐦</div>
-                  <div className="icon interact-button">💬</div>
-                  <div className="icon interact-button">📸</div>
+                  <a className="icon interact-button" aria-label="Discord" target="_blank" href="#">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M20.317 4.369A18.244 18.244 0 0016.558 3c-.2.353-.43.83-.59 1.205a16.388 16.388 0 00-4-.001c-.16-.376-.39-.853-.59-1.206a18.27 18.27 0 00-3.76 1.37C3.95 7.26 3.3 10.03 3.5 12.76c1.41 1.05 2.78 1.69 4.11 2.11.33-.46.62-.95.87-1.46-.48-.18-.94-.41-1.37-.67.11-.08.22-.17.33-.25 2.64 1.24 5.5 1.24 8.13 0 .11.09.22.17.33.25-.43.26-.89.49-1.37.67.25.51.55 1 .88 1.46 1.33-.42 2.7-1.06 4.11-2.11.34-4.27-.73-6.99-2.06-8.39zM9.58 12.5c-.66 0-1.2-.6-1.2-1.33 0-.73.53-1.33 1.2-1.33.66 0 1.2.6 1.2 1.33 0 .73-.53 1.33-1.2 1.33zm4.84 0c-.66 0-1.2-.6-1.2-1.33 0-.73.53-1.33 1.2-1.33.66 0 1.2.6 1.2 1.33 0 .73-.53 1.33-1.2 1.33z" fill="#5865F2"/>
+                    </svg>
+                  </a>
+                  <a className="icon interact-button" aria-label="Twitter" target="_blank" href="#">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M22 5.92c-.77.34-1.6.57-2.47.67a4.21 4.21 0 001.84-2.32 8.4 8.4 0 01-2.67 1.02A4.19 4.19 0 0015.3 4c-2.33 0-4.22 1.9-4.22 4.24 0 .33.03.65.1.96A11.9 11.9 0 013 5.14a4.26 4.26 0 001.31 5.66c-.64-.02-1.24-.2-1.76-.5v.05c0 2.05 1.45 3.76 3.37 4.15-.35.1-.72.16-1.1.16-.27 0-.53-.03-.78-.08.53 1.67 2.07 2.87 3.9 2.9A8.42 8.42 0 012 19.54a11.9 11.9 0 006.44 1.89c7.73 0 11.95-6.42 11.95-11.98 0-.18 0-.35-.01-.53A8.6 8.6 0 0022 5.92z" fill="#1D9BF0"/>
+                    </svg>
+                  </a>
+                  <a className="icon interact-button" aria-label="Telegram" target="_blank" href="#">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9.03 13.44l-.36 5.09c.51 0 .73-.22 1-.48l2.4-2.3 4.98 3.66c.91.5 1.57.24 1.82-.84l3.3-14.66h0c.29-1.27-.46-1.77-1.35-1.46L1.66 9.5c-1.26.49-1.24 1.2-.21 1.52l4.93 1.53 11.46-7.23c.54-.33 1.03-.15.62.18L9.03 13.44z" fill="#229ED9"/>
+                    </svg>
+                  </a>
+                  <a className="icon interact-button" aria-label="Instagram" target="_blank" href="#">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M7 2h10a5 5 0 015 5v10a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5zm5 5a5 5 0 100 10 5 5 0 000-10zm6-1.2a1.2 1.2 0 100 2.4 1.2 1.2 0 000-2.4zM12 9a3 3 0 110 6 3 3 0 010-6z" fill="#E1306C"/>
+                    </svg>
+                  </a>
                 </div>
               </div>
             </div>
