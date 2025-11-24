@@ -27,7 +27,7 @@ body {
 
 .ticker {
   display: inline-block;
-  animation: ticker-left 8s linear infinite;
+  animation: ticker-loop 12s linear infinite;
 }
 
 .ticker span {
@@ -42,9 +42,9 @@ body {
   border-radius: 8px;
 }
 
-@keyframes ticker-left {
-  0% { transform: translateX(100%); }
-  100% { transform: translateX(-100%); }
+@keyframes ticker-loop {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
 }
 
 .modal img {
