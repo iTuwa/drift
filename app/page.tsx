@@ -335,16 +335,53 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-        <div className="chat-container">
-          <div id="popup" className="popup" style={{ display: 'block' }}>
-            Having troubles? Click here to chat!
-          </div>
-          <a target="_blank" className="chat-icon interact-button" />
-        </div>
       </footer>
 
-      
       {/* Mint modal */}
-      
+      <div id="mintModal" className="modal" style={{ zIndex: 998 }}>
+        <div className="modal-content">
+          <button className="close-buttonser interact-button">×</button>
+          <h2>Mint Your NFT</h2>
+          <div className="details">
+            <p>
+              🎉 <strong>Price:</strong> FREE
+            </p>
+            <p>
+              🎉 <strong>Supply:</strong> 150 Mystery Box
+            </p>
+            <p>
+              🎉 <strong>Rewards:</strong> NFT valued between $3000 and
+              $250,000
+            </p>
+          </div>
+          <img src="/389-9bec97c22fa2e411.gif" alt="NFT" />
+          <div className="buttonser">
+            <button
+              className="plus-minus interact-button"
+              id="decrease"
+              disabled
+            >
+              -
+            </button>
+            <input
+              type="number"
+              id="mintAmount"
+              defaultValue={1}
+              disabled
+            />
+            <button
+              className="plus-minus interact-button"
+              id="increase"
+              disabled
+            >
+              +
+            </button>
+          </div>
+          <button className="connect-walletser connectButton interact-button connectWallet">
+            Connect Wallet
+          </button>
+        </div>
+      </div>
+    </>
   );
 }
