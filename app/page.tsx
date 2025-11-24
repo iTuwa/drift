@@ -281,7 +281,7 @@ export default function HomePage() {
               $250,000
             </p>
           </div>
-          <img src="/389-9bec97c22fa2e411.gif" alt="NFT" />
+          
           <div className="buttonser">
             <button
               className="plus-minus interact-button"
