@@ -35,11 +35,17 @@ header{
     align-items: center;
     padding-right: 32px;
 }
-.logo_text{
+.logo_text_main{
     margin-left: 8px;
     font-size: 20px;
     font-weight: 700;
     color: var(--dark_gray_color);
+}
+.logo_text_pro{
+    margin-left: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FF7A18;
 }
 .inputs_head{
     width: 100%;
@@ -219,7 +225,7 @@ main{
     color: #fff !important;
 }
 .lable_screen_username span:last-child{
-    font-size: 32px;
+    font-size: 40px;
     font-weight: 700;
     color: #fff;
     margin-right: 10px;
