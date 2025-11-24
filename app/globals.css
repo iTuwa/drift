@@ -27,7 +27,7 @@ body {
 
 .ticker {
   display: inline-block;
-  animation: ticker-loop 12s linear infinite;
+  animation: ticker-loop 10s linear infinite;
 }
 
 .ticker span {
@@ -48,8 +48,8 @@ body {
 }
 
 .modal img {
-  width: 35%;
-  max-width: 160px;
+  width: 30%;
+  max-width: 140px;
   height: auto;
   border-radius: 10px;
   display: block;
