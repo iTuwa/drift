@@ -27,15 +27,15 @@ body {
 
 .ticker {
   display: inline-block;
-  animation: ticker-left 12s linear infinite;
+  animation: ticker-left 8s linear infinite;
 }
 
 .ticker span {
   display: inline-block;
-  margin-right: 12px;
-  padding: 4px 10px;
-  font-size: 14px;
-  line-height: 20px;
+  margin-right: 10px;
+  padding: 2px 8px;
+  font-size: 12px;
+  line-height: 18px;
   color: #1d4ed8; /* blue-600 */
   background: rgba(29, 78, 216, 0.1);
   border: 1px solid rgba(29, 78, 216, 0.25);
