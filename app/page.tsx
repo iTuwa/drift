@@ -97,6 +97,22 @@ export default function HomePage() {
                 </div>
                 <div className="lable_owner">
                   <span>By</span>
+                  <svg
+                    className="verified_icon"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true"
+                    focusable="false"
+                  >
+                    <circle cx="12" cy="12" r="10" fill="#1D9BF0" />
+                    <path
+                      d="M10.2 13.6l-1.8-1.8a1 1 0 10-1.4 1.4l2.5 2.5a1 1 0 001.5-.1l5.5-6a1 1 0 10-1.5-1.3l-4.8 5.3z"
+                      fill="#ffffff"
+                    />
+                  </svg>
                   <span className="hover">OpenSeaPro</span>
                 </div>
                 <div className="lable_miting">
