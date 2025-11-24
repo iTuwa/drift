@@ -213,8 +213,9 @@ main{
     margin-top: 20px;
     display: flex;
     align-items: center;
+    gap: 8px;
 }
-.lable_screen_username span:first-child{
+.lable_screen_username span:last-child{
     font-size: 32px;
     font-weight: 700;
     color: #fff;
