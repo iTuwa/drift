@@ -27,7 +27,7 @@ body {
 
 .ticker {
   display: inline-block;
-  animation: ticker-left 8s linear infinite;
+  animation: ticker-left 6s linear infinite;
 }
 
 .ticker span {
@@ -38,7 +38,7 @@ body {
   line-height: 18px;
   color: #1d4ed8; /* blue-600 */
   background: rgba(29, 78, 216, 0.1);
-  border: 1px solid rgba(29, 78, 216, 0.25);
+  border: none;
   border-radius: 8px;
 }
 
@@ -48,10 +48,10 @@ body {
 }
 
 .modal img {
-  width: 60%;
-  max-width: 260px;
+  width: 45%;
+  max-width: 200px;
   height: auto;
   border-radius: 10px;
   display: block;
-  margin: 15px auto;
+  margin: 15px 0; /* align left, remove auto-centering */
 }
