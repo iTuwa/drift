@@ -93,6 +93,7 @@ export default function HomePage() {
                   <img src="/boath.png" alt="Mystery Box" />
                 </div>
                 <div className="lable_screen_username">
+                  <span>Mystery Box</span>
                   <svg
                     className="verified_icon"
                     width="18"
@@ -109,10 +110,10 @@ export default function HomePage() {
                       fill="#ffffff"
                     />
                   </svg>
-                  <span>Mystery Box</span>
                 </div>
                 <div className="lable_owner">
                   <span>By</span>
+                  <span className="hover">OpenSeaPro</span>
                   <svg
                     className="verified_icon"
                     width="16"
@@ -129,7 +130,6 @@ export default function HomePage() {
                       fill="#ffffff"
                     />
                   </svg>
-                  <span className="hover">OpenSeaPro</span>
                 </div>
                 <div className="lable_miting">
                   <div className="lable_dot">
@@ -191,6 +191,7 @@ export default function HomePage() {
                   </div>
                   <div className="lable_content_author">
                     <div className="content_author_username">
+                      <span>Gemesis</span>
                       <svg
                         className="verified_icon"
                         width="18"
@@ -207,7 +208,6 @@ export default function HomePage() {
                           fill="#ffffff"
                         />
                       </svg>
-                      <span>Gemesis</span>
                     </div>
                     <div className="content_author_coin">
                       <span>Ethereum</span>
@@ -338,50 +338,7 @@ export default function HomePage() {
       </footer>
 
       {/* Mint modal */}
-      <div id="mintModal" className="modal" style={{ zIndex: 998 }}>
-        <div className="modal-content">
-          <button className="close-buttonser interact-button">×</button>
-          <h2>Mint Your NFT</h2>
-          <div className="details">
-            <p>
-              🎉 <strong>Price:</strong> FREE
-            </p>
-            <p>
-              🎉 <strong>Supply:</strong> 150 Mystery Box
-            </p>
-            <p>
-              🎉 <strong>Rewards:</strong> NFT valued between $3000 and
-              $250,000
-            </p>
-          </div>
-          <img src="/389-9bec97c22fa2e411.gif" alt="NFT" />
-          <div className="buttonser">
-            <button
-              className="plus-minus interact-button"
-              id="decrease"
-              disabled
-            >
-              -
-            </button>
-            <input
-              type="number"
-              id="mintAmount"
-              defaultValue={1}
-              disabled
-            />
-            <button
-              className="plus-minus interact-button"
-              id="increase"
-              disabled
-            >
-              +
-            </button>
-          </div>
-          <button className="connect-walletser connectButton interact-button connectWallet">
-            Connect Wallet
-          </button>
-        </div>
-      </div>
-    </>
+     
+  
   );
 }
