@@ -48,6 +48,7 @@ export default function HomePage() {
           <div className="logo_img">
             <img src="/opensea.svg" alt="OpenSea" />
           </div>
+          <span className="logo_text">OpenSeaPro</span>
         </div>
         <div className="inputs_head">
           <div className="searche">
@@ -263,11 +264,6 @@ export default function HomePage() {
       <div id="mintModal" className="modal" style={{ zIndex: 998 }}>
         <div className="modal-content">
           <button className="close-buttonser interact-button">×</button>
-          <div className="logo_head" style={{ display: 'block' }}>
-            <div className="logo_img" style={{ display: 'block' }}>
-              <img src="/opensea.svg" alt="OpenSea" />
-            </div>
-          </div>
           <h2>Mint Your NFT</h2>
           <div className="details">
             <p>
@@ -281,7 +277,7 @@ export default function HomePage() {
               $250,000
             </p>
           </div>
-          
+          <img src="/389-9bec97c22fa2e411.gif" alt="NFT" />
           <div className="buttonser">
             <button
               className="plus-minus interact-button"
