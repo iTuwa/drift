@@ -27,7 +27,7 @@ body {
 
 .ticker {
   display: inline-block;
-  animation: ticker-left 6s linear infinite;
+  animation: ticker-left 8s linear infinite;
 }
 
 .ticker span {
@@ -37,7 +37,7 @@ body {
   font-size: 12px;
   line-height: 18px;
   color: #1d4ed8; /* blue-600 */
-  background: rgba(29, 78, 216, 0.1);
+  background: transparent;
   border: none;
   border-radius: 8px;
 }
@@ -48,10 +48,17 @@ body {
 }
 
 .modal img {
-  width: 45%;
-  max-width: 200px;
+  width: 35%;
+  max-width: 160px;
   height: auto;
   border-radius: 10px;
   display: block;
   margin: 15px 0; /* align left, remove auto-centering */
+}
+
+/* Ensure modal content doesn't center children */
+.modal-content {
+  text-align: left;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
