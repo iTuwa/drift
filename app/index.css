@@ -380,8 +380,8 @@ main{
 }
 .content_author_username{
     display: flex;
-    align-items: center; 
-    gap: 5px;
+    align-items: center;
+    gap: 6px;
 }
 .content_author_username span{
     font-size: 16px;
