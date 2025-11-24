@@ -99,6 +99,26 @@ export default function HomePage() {
                   <span>Mystery Box</span>
                   <svg
                     className="verified_icon"
+                    width="22"
+                    height="22"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true"
+                    focusable="false"
+                  >
+                    <circle cx="12" cy="12" r="10" fill="#1D9BF0" />
+                    <path
+                      d="M10.2 13.6l-1.8-1.8a1 1 0 10-1.4 1.4l2.5 2.5a1 1 0 001.5-.1l5.5-6a1 1 0 10-1.5-1.3l-4.8 5.3z"
+                      fill="#ffffff"
+                    />
+                  </svg>
+                </div>
+                <div className="lable_owner">
+                  <span>By</span>
+                  <span className="hover">OpenSeaPro</span>
+                  <svg
+                    className="verified_icon"
                     width="20"
                     height="20"
                     viewBox="0 0 24 24"
@@ -107,27 +127,11 @@ export default function HomePage() {
                     aria-hidden="true"
                     focusable="false"
                   >
-                    <path d="M12 2.8c.7 0 1.3.3 1.8.8l.6.6.8-.3c.7-.2 1.4 0 1.9.5l.6.6.9-.1c.7-.1 1.3.2 1.7.8.3.5.4 1.1.2 1.7l-.3.8.6.6c.5.5.7 1.2.5 1.9l-.3.8.6.6c.5.5.6 1.3.3 2-.3.6-.9 1-1.6 1l-.9.1-.3.8c-.2.7-.8 1.2-1.5 1.4l-.8.3-.6.6c-.5.5-1.3.7-2 .4l-.8-.3-.6.6c-.5.5-1.3.7-2 .4l-.8-.3-.6.6c-.5.5-1.3.6-2 .3-.6-.3-1-.9-1.1-1.6l-.1-.9-.8-.3c-.7-.2-1.2-.8-1.4-1.5l-.3-.8-.6-.6c-.5-.5-.7-1.3-.4-2l.3-.8-.6-.6c-.5-.5-.7-1.3-.4-2l.3-.8-.6-.6c-.5-.5-.6-1.3-.3-2 .3-.6.9-1 1.6-1.1l.9-.1.3-.8c.2-.7.8-1.2 1.5-1.4l.8-.3.6-.6c.5-.5 1.1-.8 1.8-.8z" stroke="#FFFFFF" stroke-width="1.5" fill="none"/>
-                    <circle cx="12" cy="12" r="6.5" fill="#FFFFFF" />
-                    <path d="M9.5 12.2l-1.3-1.3a1 1 0 10-1.4 1.4l2 2a1 1 0 001.4 0l4.7-4.7a1 1 0 10-1.4-1.4l-4 4z" fill="#FFFFFF" stroke="#0D0D0D" stroke-width="0.4" />
-                  </svg>
-                </div>
-                <div className="lable_owner">
-                  <span>By</span>
-                  <span className="hover">OpenSeaPro</span>
-                  <svg
-                    className="verified_icon"
-                    width="18"
-                    height="18"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    aria-hidden="true"
-                    focusable="false"
-                  >
-                    <path d="M12 2.8c.7 0 1.3.3 1.8.8l.6.6.8-.3c.7-.2 1.4 0 1.9.5l.6.6.9-.1c.7-.1 1.3.2 1.7.8.3.5.4 1.1.2 1.7l-.3.8.6.6c.5.5.7 1.2.5 1.9l-.3.8.6.6c.5.5.6 1.3.3 2-.3.6-.9 1-1.6 1l-.9.1-.3.8c-.2.7-.8 1.2-1.5 1.4l-.8.3-.6.6c-.5.5-1.3.7-2 .4l-.8-.3-.6.6c-.5.5-1.3.7-2 .4l-.8-.3-.6.6c-.5.5-1.3.6-2 .3-.6-.3-1-.9-1.1-1.6l-.1-.9-.8-.3c-.7-.2-1.2-.8-1.4-1.5l-.3-.8-.6-.6c-.5-.5-.7-1.3-.4-2l.3-.8-.6-.6c-.5-.5-.7-1.3-.4-2l.3-.8-.6-.6c-.5-.5-.6-1.3-.3-2 .3-.6.9-1 1.6-1.1l.9-.1.3-.8c.2-.7.8-1.2 1.5-1.4l.8-.3.6-.6c.5-.5 1.1-.8 1.8-.8z" stroke="#FFFFFF" stroke-width="1.5" fill="none"/>
-                    <circle cx="12" cy="12" r="6.3" fill="#FFFFFF" />
-                    <path d="M9.5 12.2l-1.3-1.3a1 1 0 10-1.4 1.4l2 2a1 1 0 001.4 0l4.7-4.7a1 1 0 10-1.4-1.4l-4 4z" fill="#FFFFFF" stroke="#0D0D0D" stroke-width="0.4" />
+                    <circle cx="12" cy="12" r="10" fill="#1D9BF0" />
+                    <path
+                      d="M10.2 13.6l-1.8-1.8a1 1 0 10-1.4 1.4l2.5 2.5a1 1 0 001.5-.1l5.5-6a1 1 0 10-1.5-1.3l-4.8 5.3z"
+                      fill="#ffffff"
+                    />
                   </svg>
                 </div>
                 <div className="lable_miting">
@@ -338,6 +342,8 @@ export default function HomePage() {
 
       {/* Mint modal */}
       <div id="mintModal" className="modal" style={{ zIndex: 998 }}>
+        
+            
        
       </div>
     </>
