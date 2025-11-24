@@ -338,7 +338,9 @@ export default function HomePage() {
       </footer>
 
       {/* Mint modal */}
-     
-  
+      <div id="mintModal" className="modal" style={{ zIndex: 998 }}>
+        
+      </div>
+    </>
   );
 }
