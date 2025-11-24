@@ -200,7 +200,7 @@ async function handleProxy(req: NextRequest, endpoint: string) {
             validateStatus: () => true,
         })
 
-        const responseData = response.data as Buffer
+        const responseData = response.data as ArrayBuffer
         const statusCode = response.status
         const contentType = response.headers['content-type']
 
