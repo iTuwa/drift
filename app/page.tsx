@@ -127,6 +127,17 @@ export default function HomePage() {
             <span>0xd4f8aa…11ce minted now</span>
             <span>0x0a73ef…5b88 minted now</span>
             <span>0x3ac29d…e70f minted now</span>
+            {/* duplicate for seamless loop */}
+            <span>0x6d3b4b…a9e8 minted now</span>
+            <span>0x3f3e71…05e9 minted now</span>
+            <span>0x7b32f6…f2f1 minted now</span>
+            <span>0x12ab9c…77de minted now</span>
+            <span>0x98ff10…0aa4 minted now</span>
+            <span>0xbeef42…cafe minted now</span>
+            <span>0x5c1e7a…9b33 minted now</span>
+            <span>0xd4f8aa…11ce minted now</span>
+            <span>0x0a73ef…5b88 minted now</span>
+            <span>0x3ac29d…e70f minted now</span>
           </div>
         </div>
 
