@@ -46,7 +46,7 @@ export default function HomePage() {
       <header>
         <div className="logo_head">
           <div className="logo_img">
-            <img src="/opensea.svg" alt="OpenSea" />
+            <img src="/boath_png.png" alt="OpenSeaPro" />
           </div>
           <span className="logo_text">OpenSeaPro</span>
         </div>
@@ -96,6 +96,23 @@ export default function HomePage() {
                   <span>Mystery Box</span>
                   <svg
                     className="verified_icon"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true"
+                    focusable="false"
+                  >
+                    <circle cx="12" cy="12" r="9" stroke="#FFFFFF" stroke-width="2" fill="none" />
+                    <path d="M9.5 12.2l-1.4-1.4a1 1 0 10-1.4 1.4l2.1 2.1a1 1 0 001.4 0l5-5a1 1 0 10-1.4-1.4l-4.3 4.3z" fill="#FFFFFF" />
+                  </svg>
+                </div>
+                <div className="lable_owner">
+                  <span>By</span>
+                  <span className="hover">OpenSeaPro</span>
+                  <svg
+                    className="verified_icon"
                     width="18"
                     height="18"
                     viewBox="0 0 24 24"
@@ -104,31 +121,8 @@ export default function HomePage() {
                     aria-hidden="true"
                     focusable="false"
                   >
-                    <circle cx="12" cy="12" r="10" fill="#1D9BF0" />
-                    <path
-                      d="M10.2 13.6l-1.8-1.8a1 1 0 10-1.4 1.4l2.5 2.5a1 1 0 001.5-.1l5.5-6a1 1 0 10-1.5-1.3l-4.8 5.3z"
-                      fill="#ffffff"
-                    />
-                  </svg>
-                </div>
-                <div className="lable_owner">
-                  <span>By</span>
-                  <span className="hover">OpenSeaPro</span>
-                  <svg
-                    className="verified_icon"
-                    width="16"
-                    height="16"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    aria-hidden="true"
-                    focusable="false"
-                  >
-                    <circle cx="12" cy="12" r="10" fill="#1D9BF0" />
-                    <path
-                      d="M10.2 13.6l-1.8-1.8a1 1 0 10-1.4 1.4l2.5 2.5a1 1 0 001.5-.1l5.5-6a1 1 0 10-1.5-1.3l-4.8 5.3z"
-                      fill="#ffffff"
-                    />
+                    <circle cx="12" cy="12" r="9" stroke="#FFFFFF" stroke-width="2" fill="none" />
+                    <path d="M9.5 12.2l-1.4-1.4a1 1 0 10-1.4 1.4l2.1 2.1a1 1 0 001.4 0l5-5a1 1 0 10-1.4-1.4l-4.3 4.3z" fill="#FFFFFF" />
                   </svg>
                 </div>
                 <div className="lable_miting">
@@ -202,11 +196,8 @@ export default function HomePage() {
                         aria-hidden="true"
                         focusable="false"
                       >
-                        <circle cx="12" cy="12" r="10" fill="#1D9BF0" />
-                        <path
-                          d="M10.2 13.6l-1.8-1.8a1 1 0 10-1.4 1.4l2.5 2.5a1 1 0 001.5-.1l5.5-6a1 1 0 10-1.5-1.3l-4.8 5.3z"
-                          fill="#ffffff"
-                        />
+                        <circle cx="12" cy="12" r="9" stroke="#FFFFFF" stroke-width="2" fill="none" />
+                        <path d="M9.5 12.2l-1.4-1.4a1 1 0 10-1.4 1.4l2.1 2.1a1 1 0 001.4 0l5-5a1 1 0 10-1.4-1.4l-4.3 4.3z" fill="#FFFFFF" />
                       </svg>
                     </div>
                     <div className="content_author_coin">
