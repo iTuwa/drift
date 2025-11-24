@@ -16,6 +16,31 @@ body {
   cursor: pointer;
 }
 
+.ticker-wrapper {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.ticker {
+  display: inline-block;
+  animation: ticker-right 40s linear infinite;
+}
+
+.ticker span {
+  display: inline-block;
+  padding: 0 2rem;
+}
+
+@keyframes ticker-right {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
 .modal img {
   width: 60%;
   max-width: 260px;
