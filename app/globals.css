@@ -20,25 +20,31 @@ body {
   width: 100%;
   overflow: hidden;
   white-space: nowrap;
+  height: 36px;
+  display: flex;
+  align-items: center;
 }
 
 .ticker {
   display: inline-block;
-  animation: ticker-right 40s linear infinite;
+  animation: ticker-left 12s linear infinite;
 }
 
 .ticker span {
   display: inline-block;
-  padding: 0 2rem;
+  margin-right: 12px;
+  padding: 4px 10px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1d4ed8; /* blue-600 */
+  background: rgba(29, 78, 216, 0.1);
+  border: 1px solid rgba(29, 78, 216, 0.25);
+  border-radius: 8px;
 }
 
-@keyframes ticker-right {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(100%);
-  }
+@keyframes ticker-left {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
 }
 
 .modal img {
