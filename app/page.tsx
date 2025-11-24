@@ -343,6 +343,7 @@ export default function HomePage() {
         </div>
       </footer>
 
+      
       {/* Mint modal */}
       
   );
