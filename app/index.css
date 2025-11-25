@@ -221,6 +221,15 @@ main{
     align-items: center;
     gap: 8px;
 }
+.verify-img{ 
+    display: inline-block; 
+    width: auto; 
+    height: 22px; 
+    margin-left: 6px; 
+    vertical-align: middle; 
+}
+.verify-title{ height: 24px; }
+.verify-by{ height: 20px; }
 .lable_screen_username span{
     color: #fff !important;
 }
